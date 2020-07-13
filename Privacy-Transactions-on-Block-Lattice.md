@@ -131,5 +131,6 @@ The settlement (receive) does not have strong timing and resource limitations, s
 by the recipient’s backend software, as a background job.   
 
 ## References
-[1] Nicolas van Saberhagen. *CryptoNote v 2.0.* https://cryptonote.org/whitepaper.pdf
+[1] Nicolas van Saberhagen. *CryptoNote v 2.0.* https://cryptonote.org/whitepaper.pdf.
+
 [2] koe, Kurt M. Alonso, Sarang Noether. *Zero to Monero.* https://web.getmonero.org/library/Zero-to-Monero-2-0-0.pdf.
