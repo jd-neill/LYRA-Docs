@@ -1,7 +1,8 @@
 # Privacy Transactions on Block Lattice
 
-Slava Gomzin
-July 13, 2020
+*Slava Gomzin*
+
+*July 13, 2020*
 
 ## Introduction
 While some people still associate privacy cryptocurrencies with darknet, black market, and hacker attacks, this perception is based on the fact that such illegal applications involve payment systems with a high degree of anonymity and privacy. The reality, however, is opposite: payment systems that provide ultimate anonymity and privacy to their users perfectly serve everyone’s needs, including, unfortunately, illegal activities. Another myth states that privacy and anonymity are only required for people who have something to hide. This is a wrong assumption because anonymity and privacy are fundamental features that protect people and businesses from outrage of governments, corporations, hackers, and thieves.       
