@@ -113,7 +113,7 @@ It has a hidden amount A<sub>Y</sub> committed to in C<sub>Y</sub>, and encrypte
 Please note that (C<sub>0X</sub> + C<sub>0S</sub>) − (C<sub>Y</sub> + C<sub>F</sub> ) = 0, 
 and that we have signed the commitment to zero C<sub>0X</sub> − C<sub>X</sub> = zG and C<sub>0S</sub> − C<sub>S</sub> = zG, 
 which means the input amount equals the output amount: A<sub>X</sub> + A<sub>S</sub> = A<sub>X</sub> + A<sub>0S</sub> = A<sub>Y</sub> + A<sub>F</sub>. 
-Ring signature signes the transaction data, so observers can be sure it hasn’t been tampered with.
+Ring signature signs the transaction data, so observers can be sure it hasn’t been tampered with.
 
 ## What we achieve with the privacy scheme described above
 As with the original block lattice transaction processing scheme, the funds transfer transaction between two accounts (a sender pays to a recipient)
@@ -124,7 +124,7 @@ from the sender’s account is needed to generate a new send block.
 The settlement might require more processing time and resources (from the authorizers to scan the key images)
 and access to a big chunk of the entire block lattice (for the client to create a ring signature that hides the sender). 
 Such “separation of duties” between the sender and receiver, and authorization and settlement processes, 
-erfectly fits the real-life transaction processing in retail environments, 
+perfectly fits the real-life transaction processing in retail environments, 
 where authorization must be completed instantly (to serve customers in real time) and with least resources required for the client
 (to allow implementations of wallets on mobile devices and smart cards). 
 The settlement (receive) does not have strong timing and resource limitations, so it can be processed later,
