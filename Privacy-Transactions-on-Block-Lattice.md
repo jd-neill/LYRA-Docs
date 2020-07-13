@@ -68,7 +68,7 @@ Below is high level definition of private transaction format, with brief descrip
 * Transaction public key rG
 
 Send transaction uses transaction public key rG. 
-It will spend the output recorded in the previous block on this account’s blockchain as a balance of the account
+It "spends" the output recorded in the previous block on this account’s blockchain as a balance of the account
 (note that it has a hidden amount A<sub>X</sub>, committed to in C<sub>X</sub>). 
 The output (account balance) being spent is owned by the same account because it is signed the entire send block using the account’s private key,
 and hasn’t been spent before because it is recorded in the previous block of the accounts blockchain and approved (signed by the authorizers)
