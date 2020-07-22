@@ -80,7 +80,7 @@ and proven in range with a Bulletproofs-style range proof. The transaction inclu
 Please note that C<sub>0X</sub> − (C<sub>Y</sub> + C<sub>Z</sub> + C<sub>F</sub> ) = 0,
 and that it has signed the commitment to zero C<sub>0X</sub> − C<sub>X</sub> = zG, 
 which means the input amount equals the output amount (A<sub>X</sub> = A<sub>0X</sub> = A<sub>Y</sub> + A<sub>Z</sub> + A<sub>F</sub>). 
-It signes all transaction data, so observers can be sure it hasn’t been tampered with.
+It signs all transaction data, so observers can be sure it hasn’t been tampered with.
 
 *Block Type:* **Receive**
 
